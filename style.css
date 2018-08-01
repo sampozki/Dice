@@ -51,8 +51,8 @@ input:focus {
 #vh{
 	position:absolute;
 	top:50%;
-	left:5%;
-	right:5%;
+	left:15px;
+	right:15px;
 	display: block;
 	border: 0;
 	border-top: 1px solid var(--sccolor);
@@ -62,8 +62,8 @@ input:focus {
 
 #ve{
 	position:absolute;
-	top:5%;
-	bottom:5%;
+	top:15px;
+	bottom:15px;
 	left:50%;
 	display: block;
 	border: 0;
