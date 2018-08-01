@@ -1,3 +1,3 @@
 # Dice
 
-Quick and simple dice rolling site idunno
+Quick, simple and mobile-friendly dice rolling site idunno
