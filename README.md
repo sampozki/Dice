@@ -1,1 +1,3 @@
-Quick and simple dice rolling sitei idunno
+# Dice
+
+Quick and simple dice rolling site idunno
