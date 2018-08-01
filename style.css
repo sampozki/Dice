@@ -13,7 +13,7 @@ body{
 
 h2{
 	font-family:"nova mono", monospace;
-	font-size:150pt;
+	font-size:100pt;
 	color:var(--sccolor);
 	line-height:0;
 	text-shadow: var(--sccolor) 0 0 10px; 
@@ -48,11 +48,11 @@ input:focus {
 	border:none;
 }
 
-hr{
+#vh{
 	position:absolute;
 	top:50%;
-	width:90%;
 	left:5%;
+	right:5%;
 	display: block;
 	border: 0;
 	border-top: 1px solid var(--sccolor);
@@ -61,14 +61,22 @@ hr{
 }
 
 #ve{
-	transform:rotate(90deg);
+	position:absolute;
+	top:5%;
+	bottom:5%;
+	left:50%;
+	display: block;
+	border: 0;
+	border-left: 1px solid var(--sccolor);
+	transform:translate(0,0);
+	opacity:0.3;
 	
 }
 
 #d6{
 	position:absolute;
-	left: 25%;
-	top:5%;
+	left:25%;
+	top:10%;
 	transform:translate(-50%,0);
 }
 	
@@ -84,6 +92,70 @@ hr{
 	position:absolute;
 	top:10px;
 	left:10px;
+}
+
+#d62{
+	position:absolute;
+	right:25%;
+	top:10%;
+	transform:translate(50%,0);
+}
+	
+#d6b2{
+	position:absolute;
+	top:2%;
+	right:0;
+	width:50%;
+	background-color:transparent;
+}
+
+#d6t2{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+
+#d20{
+	position:absolute;
+	left:25%;
+	bottom:10%;
+	transform:translate(-50%,0);
+}
+	
+#d20b{
+	position:absolute;
+	bottom:2%;
+	left:0;
+	width:50%;
+	background-color:transparent;
+}
+
+#d20t{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+
+#d202{
+	position:absolute;
+	right:25%;
+	bottom:10%;
+	transform:translate(50%,0);
+}
+	
+#d20b2{
+	position:absolute;
+	bottom:2%;
+	right:0;
+	width:50%;
+	background-color:transparent;
+}
+
+#d20t2{
+	position:absolute;
+	bottom:10px;
+	right:10px;
 }
 
 
